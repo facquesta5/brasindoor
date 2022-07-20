@@ -1,0 +1,28 @@
+.conteudo ul li{
+	float:none;
+}
+.menu{
+    background: none repeat scroll 0 0 #2F2362;
+}
+#centeredmenu {
+	height: 15px
+}
+		#centeredmenu {
+			padding: 0 0 0;
+		}
+		.menu_head {
+			background: #2f2362;
+		}
+		.menu_body {
+			display:block;
+		}
+
+		#columnB .conteudo .noticia-index .noticiaTitulo ul li {
+    margin: 4px 0 0 2px;
+    margin: 4px 0 0 2px;
+    padding: 10px 0;
+    border-bottom: 2px solid #f9a601;
+}
+#columnB .conteudo .noticia-index .noticiaTitulo ul li p a { 
+		color: #2b1f5b;
+	}

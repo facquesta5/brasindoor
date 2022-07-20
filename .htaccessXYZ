@@ -1,0 +1,4 @@
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php5-script .php
+suPHP_ConfigPath /home/brasindoor1/
+##### LOCAWEB - NAO REMOVER #####

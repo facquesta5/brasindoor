@@ -1,0 +1,24 @@
+/* 
+    Document   : chrome
+    Created on : 15/08/2013, 10:49:30
+    Author     : BRASINDOOR
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+*{
+    list-style: none !important;
+}
+#columnB .conteudo .noticia-index .noticiaTitulo ul li {
+    margin: 4px 0 0 2px;
+    margin: 4px 0 0 2px;
+    padding: 10px 0;
+    color:#1a1044;
+    border-bottom:1px solid #1a1044;
+}
+#columnB .conteudo .noticia-index .noticiaTitulo ul li p a { 
+		color: #2b1f5b;
+	}

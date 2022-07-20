@@ -1,0 +1,87 @@
+#paineis-sobre{
+	margin-top: 10px;	
+}
+.titulo-depoimentos{
+	background-color: #0275D8;
+	color: #fff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 0;
+	font-size: 24px;
+}
+#depoimentos h3{
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.grupo-radio{
+	width: 50%;
+}
+.contato-select{
+	width: 50%;
+}
+.contato-select,
+.grupo-radio {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+#sobre-nos{
+	margin-bottom: 20px;
+}
+footer{
+	background: #333;
+	color: #fff;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+footer address:last-child{
+	margin-bottom: 0;
+}
+html,
+body{
+	height: 100%;
+
+}
+header{
+	height: 100%;
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+}
+header h1{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.topCasaFina-banner{
+	width: 80%;
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-40%, -40%);
+	transition: 0.3s;
+}
+@media(min-width: 768px){
+		.projetos-responsivo{
+			width: 50%;
+			float: left;
+		}
+}
+@media(min-width: 992px){
+	.topCasaFina-banner{
+		left: 0;
+		width: 50%;
+		transform:translate(0, -80%);
+	}
+
+	.topCasaFina-bannerWrapper{
+		position: relative;
+		height: 100%;
+	}
+}

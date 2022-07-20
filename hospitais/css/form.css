@@ -1,0 +1,9 @@
+
+
+.status_form .radio input[type="radio"]{
+	margin-top:22px;
+}
+
+.form-group.status_form{
+ 	margin: 0 15px 12px 40px;
+ }

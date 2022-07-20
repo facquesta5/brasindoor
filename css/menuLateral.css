@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+/** MENU LATERAL*/
+
+.menu_list {
+	width: 220px;
+}
+.menu_head {
+	padding: 10px 10px;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+	color:#edebf8;
+	background-color: #1a1044;
+	font-size: 1rem;
+
+}
+.menu_body {
+	display:none;
+	padding:4px 0;
+	font-size: 1rem;
+}
+.disponivel{
+  display:block;
+}
+.menu_body a {
+  display:block;
+  color:#1a1044;
+  background-color:#edebf8;
+  padding: 5px 0 5px 10px;
+  text-decoration:none;
+}
+.menu_body a:hover {
+  color: #1a1044;
+  text-decoration:underline;
+}
+
+
+/* PUBLICIDADE */
+    
+.publicidade{
+	border:0px dashed red;
+	padding:10px 0 0 0;
+}
+.boxPublicidade a{
+	background:url(../images/publiAqui.jpg);
+	float:left;
+	margin-left:2px;
+	margin-right:1px;
+	width:106px;
+	height:106px;
+}
+.boxPublicidade a:hover{
+	background:url(../images/publiAquiHover.jpg);
+	float:left;
+	margin-left:2px;
+	margin-right:1px;
+	width:106px;
+	height:106px;
+}

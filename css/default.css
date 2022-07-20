@@ -1,0 +1,522 @@
+/** BASIC */
+body {
+	margin: 0px;
+	padding:10px 0 0 0px;
+	line-height: 20px;
+	text-align: justify;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #797979;
+	background: url('../images/bg.jpg');
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin:0;
+	padding:0;
+}
+h1{
+	color:#301855;
+	line-height: 30px;
+	margin: 0 0 10px 0;
+	font-size:20px !important;
+}
+h3{
+	margin:20px 0 0 0;	
+}
+a{
+color:#006699;
+text-decoration:none;
+
+}
+a:hover {
+	text-decoration:underline;
+}
+
+img {
+	border: none;
+	max-width:none !important;
+}
+.show{
+    color: #B94A48;
+    display: block;
+    float: right;
+    margin: 3px 167px 1px 1px;
+}
+.hidd{
+       display:none; 
+}
+.tipo{
+	float: left;
+	width:600px;
+	padding:10px 10px 10px 15px;
+	margin: 0 0 10px 0;
+	background: #e2f2fb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.tdTexto{
+	text-align:right;
+}
+.ie7{
+	display:none;
+}	
+.facebook-ico{
+	display:none;
+}
+/* HEADER */
+#header {
+	background:url(../images/img04.jpg);
+	width: 910px;
+	margin: 0px auto;
+	height: 136px;
+	padding:0;
+	border-bottom:1px solid #f4faff;
+}
+
+#logo {
+	width:265px;
+	float:left;
+	margin: 10px 0 0 13px ;
+}
+
+#bannerLogo {
+	float:right;
+	padding:0px  0 0 0px;
+	border:0px dashed red;
+}
+
+
+/** CONTENT */
+#content {
+	margin: 0 auto;
+	width: 910px;
+	padding: 2px 0 0 0;
+	background: #fff;
+}
+
+#columnA {
+	float:right;
+	height:auto;
+	width: 220px;
+	background:#f2f2f2;
+	padding:5px 15px 20px 15px;
+}
+
+
+
+/**Coluna Esquerda **/
+.Not�ciasTXT{ 
+	width: 170px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:10px;
+	color:#666666;
+	text-align:left;
+	padding:3px;
+	line-height:14px;
+}
+
+.label{
+	width: 150px;
+	margin-left:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px; 
+	font-weight:normal; 
+	color:#19092b; 
+	text-align:left; 
+	padding-top:3px;
+	border:0px dashed red;
+}
+	
+#columnB{
+	float: left;
+	width: 658px;
+	height:auto;
+}
+#columnB .mioloTitulo{
+		min-height:27px; 
+		padding:3px 0 0 15px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-weight:bold; 
+		font-size:11px; 
+		text-align:left; 
+		border-bottom:3px solid #edebf8;
+		margin: 10px 5px 0 5px;
+	}
+	
+		.conteudo{
+			float:left;
+			font-weight:normal; 
+			font-size:14px; 
+			color:#666666;
+			text-align:left; 
+			padding:0 10px 0 15px;
+			width:634px; 
+		}	
+			.conteudo h1{
+				font-size: 20px;
+			}
+				.conteudo ul{
+					float: left;
+				}
+					.conteudo ul li{
+						float: left;
+						width:100%;
+						margin: 10px 0 0 0;
+					}
+						.conteudo ul li p{
+							float: left;				
+							margin: 0 0 0 0 ;
+						}
+						
+						.conteudo.certificados ul li p{
+							width: 100%;
+						}			
+			.conteudo.associacao ul{
+				width:100%;
+				margin:18px 0 14px 0;
+			}			
+				.conteudo.associacao ul li{
+					list-style: none;
+					width:120px;
+					margin: 0 0 0 0;
+				}
+					.conteudo.associacao ul li .label{
+						margin: 0 0 0 0;	
+					}
+			.conteudo.area-assoc p{
+				float:left;
+				width:100%;
+				padding: 0;
+				margin: 0;
+			}
+			.conteudo.area-assoc ul{
+				float:left;
+				width:100%;
+				padding: 0;
+				margin: 0 0 15px 0;
+			}
+				.conteudo.area-assoc ul li{
+					float:left;
+					width:auto;
+					padding:0 8px;
+				}	
+					.conteudo.area-assoc ul li p a{
+
+					}
+			.conteudo.certificados{
+				margin-top: 10px ;
+			}		
+			.conteudo.contato{
+				width: 600px;
+				margin: 10px 0 0 0;	
+			}
+			.conteudo.contato p{
+				float: left;
+				width: 100%;
+				margin: 0;
+			}			
+			.conteudo.contato ul{
+				float: left;
+				margin:0 0 18px 0;
+			}			
+				.conteudo.contato ul li{
+					list-style: none;
+					width:250px;
+					margin: 4px 0;
+				}
+					.conteudo.contato ul li .label{
+						margin: 0 0 0 0;	
+					}
+		.conteudo .banner-seminario{
+			float:left;
+			width:624px;
+			height:300px;
+			background:url(../images/bg-seminario.jpg);
+			margin:0 0 15px 0;
+		}
+		.conteudo .banner{
+			float:left;
+			width:624px;
+			margin:10px 0 15px 0;
+		}	
+		.conteudo .banner-seminario.oab{
+			background:none;
+			height:auto;
+		}	
+			.conteudo .banner-seminario .seminario-titulo{
+				float:left;
+			}
+				.conteudo .banner-seminario .seminario-titulo a{
+					float:left;
+					width:609px;
+					height:102px;
+					background:url(../images/seminario-btn1.png);
+					margin:5px 0 5px 5px;
+				}
+					.conteudo .banner-seminario .seminario-titulo a:hover{
+						background:url(../images/seminario-btn12.png);
+					}
+			.conteudo .banner-seminario .seminario-data{
+				float:left;
+			}
+				.conteudo .banner-seminario .seminario-data a{
+					float:left;
+					width:609px;
+					height:80px;
+					background:url(../images/seminario-data1.png);
+					margin:5px 0 5px 5px;
+				}
+					.conteudo .banner-seminario .seminario-data a:hover{
+						background:url(../images/seminario-data2.png);
+					}	
+			.conteudo .banner-seminario .seminario-data.pag a{
+				background:url(../images/seminario-data-pag.png) ;
+			}	
+			.conteudo .banner-seminario ul{
+				float:left;
+				width:100%;
+				margin: 20px 0 5px 8px;
+			}
+				.conteudo .banner-seminario ul li{	
+					float:left;
+					width:auto;
+					margin:2px 6px 0 0;	
+				}
+/* Formul�rios */
+.conteudo.formulario{
+	margin: 10px 0 0 10px;
+}
+.conteudo.formulario h3{
+	float:left;
+	width:100%;
+	margin: 15px 0 6px 0;
+}
+	.checkTotal{
+		float:left;
+		width:100%;
+	}
+		.checkTotal .checkbox{
+			float:left;
+		}
+		.checkTotal input{
+			float:left;
+		}
+	.radio-pf{
+		float:left;
+		width:100%;
+	}
+	.radio-pf ul{
+		float: left;
+		width:100%;
+		margin:10px 0;
+	}
+	.radio-pf ul li{
+		float: left;
+		width:auto;
+		margin:0 25px 0 0;
+		border-right:1px solid #E2E2E2;
+	}
+	.radio-pf ul li.last{
+		border:none;
+	}
+	.radio-pf ul li input{
+		float:left;
+		width:;
+		margin:3px 5px 0 0;
+	}
+	.radio-pf ul li p{
+		float:left;
+		width:90px;
+	}
+	
+.btn-info{
+	margin: 5px 0 0 0;
+}
+.btn-success{
+	float:left;	
+	margin: 0 10px 0 0;
+}
+.pag_seguro{
+	float:left;
+	margin:0 0 0 10px !important;
+}
+/* blocks */
+a.block{
+	float:left;
+	width: 202px;
+	height: 164px;
+	margin: 0 9px 0 0px;
+	-moz-border-radius-topright:40px;
+	-webkit-border-top-right-radius:40px;
+}
+	a.block.amarelo{
+		background:#f4ae00;
+	}
+	a.block.azul{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4aa1e2+0,1a1044+100 */
+	background: #4aa1e2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4aa1e2 0%, #1a1044 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4aa1e2), color-stop(100%,#1a1044)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4aa1e2 0%,#1a1044 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4aa1e2 0%,#1a1044 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4aa1e2 0%,#1a1044 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4aa1e2 0%,#1a1044 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4aa1e2', endColorstr='#1a1044',GradientType=0 ); /* IE6-9 */
+	}
+	
+	a.block.verde{
+		background:#2f7d00
+	}
+
+	.BlockImg{
+		width:69px; 
+		height:69px; 
+		position:relative; 
+		float:right; 
+		border:0px dashed red;
+	}
+	.BlockConteudo{
+		float:left;
+		height:142px;
+		width:190px;
+		background:url(../images/luz.png) left bottom no-repeat;
+		margin: 16px 8px 0 7px;
+	}
+	.BlockTexto{
+		height:70px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:18px;
+		color:#FFFFFF;
+	}
+		.BlockTexto p{
+			float: left;
+			margin: 0 0 0 4px;
+			font-size: 20px;
+		}
+		.BlockTexto a{
+			color:#FFFFFF;
+		}
+			.BlockTexto a:hover{
+				color: #EDEBF8;
+			}
+
+
+/*NOT�CIAS*/
+.noticia-index{ float: left; width: 624px; }
+.noticia-index h1 { margin:8px 0 0 2px;color:#1a1044; border-bottom: 1px solid #1a1044;}
+#content #columnB .conteudo .noticia-index .noticiaTitulo ul { padding: 0;  }
+#columnB .conteudo .noticia-index .noticiaTitulo ul li { 
+	margin:4px 0 0 10px;
+    padding: 10px 0;
+    border-bottom: 2px solid #f9a601;
+	color:#301855; 
+	list-style: disc;
+	}
+
+	#columnB .conteudo .noticia-index .noticiaTitulo ul li p a { 
+		color: #2b1f5b;
+		font-size: 15px;
+	}
+
+.conteudo .noticiaTitulo{
+	float: left;
+	width: 100%;
+}
+	.conteudo .noticiaTitulo ul{
+		margin: 0;
+		padding:0 3px 3px 10px;
+	}
+		.conteudo .noticiaTitulo ul li{
+			list-style: none;
+		}
+/*LOGIN*/
+#container{	
+	width:600px;
+	padding:0 0 0 20px;
+}
+#tabbox{
+	color:#1a1044;
+	height:30px;
+}
+#panel{
+	background-color:#FFF;
+	height:100px;
+	border-top:1px solid #dedede;
+}
+.tab{
+	color:#1a1044;
+	background: #dedede;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 100px;
+	float: right;
+	font-weight: bold;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius: 4px 4px 0px 0px;
+}
+
+.signup{
+	margin-left:8px;
+}
+.select{
+	background:#f4ae00;	
+}
+#loginbox {	
+	height:100px;
+	padding:10px;
+}
+#signupbox{	
+	height:100px;
+	padding:10px;
+	display:none;
+}
+
+
+
+/** FOOTER */
+
+#footer {
+	margin: 0px auto;
+	height: 90px;
+	border-top:2px solid #edebf8;
+	background: repeat-x left top;
+	text-align: center;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 18px 0px 0px 0px;
+	font-size: 10px;
+	color: #666666;
+}
+
+#footer a {
+	color: #CCCCCC;
+}
+
+.msg {
+    padding: 10px 10px 10px 35px;
+}
+
+
+.msg.done {
+    background: url("../images/ico-done.gif") no-repeat scroll 10px 50% transparent;
+}
+.msg.done {
+    background-color: #EAF7D9;
+    border: 2px solid #BBDF8D;
+}
+.msg.error {
+ background: url("../images/ico-delete.gif") no-repeat scroll 10px 50% transparent;
+}
+.msg.error {
+	background-color: #FEEBEB;
+    border: 2px solid #FFAEAE;
+    
+}
